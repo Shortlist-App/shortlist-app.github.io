@@ -161,7 +161,7 @@ header {
     #contactform input[type="submit"] {
       background: #7B358B;
       border-radius: 3px;
-      color: #000;
+      color: #fff;
       text-transform: uppercase;
       margin-top: 12px;
       width: 114px;
