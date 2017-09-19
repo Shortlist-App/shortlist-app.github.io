@@ -1,6 +1,7 @@
-body {
+html, body {
   background: #111;
   color: #475058;
+  height: 100%;
   font-weight: normal;
   font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px; }
@@ -141,15 +142,15 @@ header {
     height: auto;
   }
 
-@media (max-width: 34em) {
+/*@media (max-width: 34em) {
   .nexus-large img {
-    width: 229px; } }
+    width: 258px; } }
 #contactform {
   /*color: #36173E;*/
   /*margin-top: 160px;*/
   /*text-align: center;*/
   /*display: inline-block;*/
-}
+}*/
   #contactform input {
     border: 1px solid #7B358B;
     border-radius: 3px;
