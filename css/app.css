@@ -1,5 +1,8 @@
 html, body {
-  background: #111;
+  background-color: #111;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
   color: #475058;
   height: 100%;
   font-weight: normal;
@@ -84,10 +87,6 @@ header {
     color: #fff; }
 
 #topwrap {
-  background-color: #111;
-  background-image: url(../images/bg.jpg);
-  background-position: center;
-  background-size: cover;
   height: 100%;
   color: #fff;
   text-align: center; }
