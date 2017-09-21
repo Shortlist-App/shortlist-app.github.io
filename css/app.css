@@ -54,6 +54,15 @@ header {
       width: 180px;
       padding: 15px 0;
   }
+
+  a.brandTM {
+    background-image: url(../images/poweredByTM.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+  }
+  
   header h1 a.brand:hover {
         opacity: 0.5;
   }
