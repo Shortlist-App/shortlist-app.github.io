@@ -55,6 +55,46 @@ header {
       opacity: .7;
   }
 
+  input.button {
+
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #7B358B;
+    color: white;
+    display: block;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 19px;
+    border: 0;
+  }
+
+  .downloadbuttons {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 5px;
+    height: 50px;
+  }
+
+  #formBox{
+    text-align: left;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .formField{
+    color: #111;
+    border-radius: 2px;
+    border: 0;
+  }
+
+  #downloadform {
+    margin-top: 140px;
+  }
+
   header h3 a.brandTM {
     background-image: url(../images/poweredByTM.svg);
     background-position: right;
@@ -68,7 +108,7 @@ header {
   }
 
   header h1 a.brand:hover {
-        opacity: 0.9;
+        opacity: .9;
   }
 
   header h3 a.brandTM:hover {
@@ -87,7 +127,7 @@ header {
     margin: 0;
     padding: 15px 0px;
     line-height: 30px;
-    color: #fff ;
+    color: #fff;
     opacity: .7;
   }
 
@@ -165,9 +205,9 @@ header {
   /*color: #36173E;*/
   /*margin-top: 160px;*/
   /*text-align: center;*/
-  /*display: inline-block;*/
+  /*display: inline-block;
 }*/
-  #contactform input {
+  /*#contactform input {
     border: 1px solid #7B358B;
     border-radius: 3px;
     width: auto;
@@ -198,7 +238,7 @@ header {
     font-size: 1.285714286em;
     max-width: 600px;
     font-weight: 300;
-    margin: 8px auto 0 auto; }
+    margin: 8px auto 0 auto; }*/
 
 #follow {
   color: #7B358B;
