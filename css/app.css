@@ -34,9 +34,12 @@ p {
   font-weight: 200;
   margin: 0 auto;
   max-width: 600px;
-  line-height: 1.8em; }
-  p strong {
-    font-weight: 500; }
+  line-height: 1.5em;
+  text-align: left;
+  padding: 20px;
+}
+p strong {
+  font-weight: 500; }
 
 header {
   padding-top: 20px; }
@@ -72,10 +75,7 @@ header {
   }
 
   .downloadbuttons {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 5px;
-    height: 50px;
+    margin-top: 30%;
   }
 
   #formBox{
