@@ -16,8 +16,8 @@ h1 {
   font-size: 300%; }
 
 h2 {
-  html{font-size:250%;}
-  @media(min-width:60em){html{font-size: 140%}}
+  html{font-size:140%;}
+  @media(min-width:600px){html{font-size: 250%}}
   font-weight: 500;
 }
 
@@ -32,7 +32,7 @@ h4 {
   font-weight: 500; }
 
 p {
-  font-size: 100%;
+  font-size: 120%;
   font-weight: 200;
   margin: 0 auto;
   max-width: 600px;
