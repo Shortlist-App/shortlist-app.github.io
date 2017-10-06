@@ -5,6 +5,7 @@ body {
   background-size: cover;
   color: #475058;
   font-weight: normal;
+  font-size:16px;
   font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
   letter-spacing: 0.5px; }
 
@@ -12,29 +13,30 @@ h1, h2, h3, h4, h5 {
   font-weight: 100; }
 
 h1 {
-  font-size: 1.5em; }
+  font-size: 300%; }
 
 h2 {
-  font-size: 4.3em;
+  html{font-size:250%;}
+  @media(min-width:60em){html{font-size: 140%}}
   font-weight: 500;
 }
 
 h3 {
-  font-size: 1.14em;
+  font-size: 150%;
   text-transform: uppercase;
   font-weight: 500; }
 
 h4 {
-  font-size: 1em;
+  font-size: 110%;
   text-transform: uppercase;
   font-weight: 500; }
 
 p {
-  font-size: 1.571428571em;
+  font-size: 100%;
   font-weight: 200;
   margin: 0 auto;
   max-width: 600px;
-  line-height: 1.5em;
+  line-height: 1.2;
   text-align: left;
   padding: 20px;
 }
