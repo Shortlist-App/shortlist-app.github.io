@@ -48,6 +48,10 @@ p {
 p strong {
   font-weight: 500; }
 
+.row {
+  padding: 20px 0px;
+}
+
 header {
   padding-top: 20px; }
   header h1 {
